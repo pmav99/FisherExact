@@ -1,9 +1,9 @@
 import scipy.stats as ss
 from scipy.special import gammaln as lgamma
-import statlib.fexact as f
-from statlib.fexact import fisher_exact as f_exact
-from statlib.asa159 import rcont2
-from statlib.asa205 import enum as rcont
+from .statlib import fexact as f
+from .statlib.fexact import fisher_exact as f_exact
+from .statlib.asa159 import rcont2
+from .statlib.asa205 import enum as rcont
 import numpy as np
 import logging
 import os
